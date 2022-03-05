@@ -71,7 +71,7 @@ public class MainInterface extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jButton1.setText("Members");
+        jButton1.setText("Starff");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -144,8 +144,8 @@ public class MainInterface extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        Members members = new Members();
-        members.setVisible(true);
+        Starff starff = new Starff();
+        starff.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
